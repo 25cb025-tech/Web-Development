@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Landing Page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Welcome to My Website</h1>
+<p>Creative Web Development</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>About</h2>
+<p>We provide creative web solutions.</p>
+</div>
+
+<div class="card">
+<h2>Services</h2>
+<p>Web Design, Development and UI Design.</p>
+</div>
+
+<div class="card">
+<h2>Contact</h2>
+<p>Email: info@gmail.com</p>
+</div>
+
+</div>
+
+<footer>
+<p>Copyright 2026</p>
+</footer>
+
+</body>
+</html>
+body{
+margin:0;
+font-family:Arial;
+background:#f2f2f2;
+}
+
+header{
+background:#0044cc;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+.container{
+display:flex;
+justify-content:center;
+margin:40px;
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+width:250px;
+box-shadow:0px 0px 10px gray;
+text-align:center;
+}
+
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:20px;
+}
